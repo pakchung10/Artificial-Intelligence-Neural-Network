@@ -43,7 +43,7 @@ def main():
         w_ = my_perceptron(list_x_array[:num], list_y[:num], T)
         # print(w_)
         print("准确率:", count_accuracy(w_, list_x_array[-num:], list_y[-num:]))
-
+        print("T={}，权重向量w={}，正确率为：{}".format(T, w_, count_accuracy(w_, list_x_array[-num:], list_y[-num:])))
 # 感知器
 def my_perceptron(x_list, y_list, T):
     # x<--x1,x2,x3,y<-y,T迭代次数

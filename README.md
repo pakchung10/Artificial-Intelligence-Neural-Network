@@ -4,3 +4,5 @@ lesson_Artificial Intelligence Neural Network(cityu of Macau)
 hw1——numpy基本操作
 hw2——梯度下降法
 hw3——感知器算法
+hw3-1——感知器算法
+hw3-2——感知器算法
