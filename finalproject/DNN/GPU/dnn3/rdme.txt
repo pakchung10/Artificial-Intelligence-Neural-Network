@@ -1,0 +1,11 @@
+  self.linear1 = nn.Linear(60, 100)
+        self.linear2 = nn.Linear(100, 200)
+        self.linear3 = nn.Linear(200, 500)
+        self.linear4 = nn.Linear(500, 1500)
+        self.linear5 = nn.Linear(1500, 800)
+        self.linear6 = nn.Linear(800, 200)
+        self.linear7 = nn.Linear(200, 80)
+        self.linear8 = nn.Linear(80, 40)
+        self.linear9 = nn.Linear(40, 20)
+        self.linear10 = nn.Linear(20, 1)
+lr=1e-10
